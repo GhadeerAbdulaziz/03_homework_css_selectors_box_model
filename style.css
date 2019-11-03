@@ -1,0 +1,138 @@
+
+body{
+background-color: #f0efef;
+font-family: "Open Sans";
+font-weight:300 lighter ;
+font-family: 1em;
+margin: 0 ;
+}
+
+
+nav {
+    
+    background-color: #033048;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+font-weight: 600 Semi Bold;;
+   
+  }
+  .navbar img{
+    height: 30px;
+      }
+    
+  .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:10px;
+    margin: 0 auto;
+    padding: 0 10%;
+   
+}
+.container_meddlie{
+  width: 65%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* padding: 50px ; */
+    grid-row-gap: 5px;
+
+      }
+
+
+ 
+  .nav-links{
+    margin-right:100px;
+  }
+  .nav-links  a{
+    float: left;
+  color:  #f9e42e;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+   
+  }
+
+  .first a{
+    color: rgb(156, 30, 30);
+ }
+ .second article p{
+     color:#606161;
+ }
+  
+  .sidebarright{
+      width: 35%
+  }
+
+
+.categories{
+    display: flex;
+   text-align: left;
+}
+.categories ul{
+   flex-direction: row; 
+  flex-wrap: wrap;
+    list-style: none;
+    
+    
+  }
+ 
+  .categories a{
+    text-decoration: none !important;
+    font-weight: 1em;
+    font-weight: lighter;
+    color:#033048;
+text-align: left;
+ 
+  }
+
+  .ad{
+      background: white;
+      height: 300px;
+      text-align: center;
+  }
+  .footer{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    height: 400px;
+}
+  .items1{
+      background: #f9e42e;
+    
+  }
+  .items2{
+    background:  #121212;
+    color: white;
+    text-align: center;
+}
+.items2 h3{
+margin-top: 50px;
+}
+.items1 button{
+    background-color: rgb(1,33,76);
+    color: #fff;
+    font-size: 20px;
+margin:auto;
+display:block;
+margin-top: 20px;
+padding: 15px 80px;
+border-radius: 8px;
+
+}
+.items2 img{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  
+
+}
+.social{
+   display: flex;
+margin: 15px 45%;
+
+}
+.social img{
+    width: 15px;
+}
